@@ -1,0 +1,111 @@
+*{
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+body{
+  background-image: url(img/cliff.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+}
+.container .header h1{
+  color: pink;
+  font-family: Gabriola;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.container .header h2{
+  text-align: right;
+  color: pink;
+  font-family: monospace;
+  font-size: 20px;
+  margin-right: 0;
+  text-decoration: underline;
+  margin-top: 5px;
+}
+.container {
+  margin-top: 20px;
+  background-color: rgba(10, 30, 50, .7);
+  border-radius: 30px;
+}
+.navbar{
+  position: sticky;
+  margin-top: 20px;
+}
+.container .navbar ul li{
+  float: left;
+  list-style: none;
+  text-align: center;
+  margin-left: 30px;
+
+}
+.container .navbar ul li a{
+  color: #c0c0c0;
+  font-family: cursive;
+  font-size: 25px;
+  text-decoration: underline;
+  text-transform: capitalize;
+
+}
+.container .navbar ul li a:hover{
+  color: pink;
+  font-family: Gabriola;
+  font-size: 28px;
+
+}
+.container .content{
+  margin-top: 40px;
+}
+.container .content img{
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.container .content p{
+  color: #ffffff;
+  font-size: 25px;
+  font-family: Papyrus;
+}
+/*styling our login page*/
+.container .container2{
+  background-image: url(img/cliff.jpg);
+  width: 360px;
+  padding: 10 0 0;
+  margin: auto;
+}
+.container .container2 .form{
+  position: relative;
+ z-index: 1;
+ background: rgba(7, 40,30, 0.3);
+ max-width: 360px;
+ margin: 0 auto 100px;
+ padding: 45px;
+ text-align: center;
+ border-top-left-radius:30% ;
+}
+.container .container2 .form input{
+  font-family: sans-serif;
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.container .container2 .form button{
+  font-family: "Robot", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4caf50;
+  width: 100%;
+  border:0;
+  padding: 15px;
+  color: #ffff;
+  font-size: 14px;
+  cursor: pointer;
+  Hover:blue;
